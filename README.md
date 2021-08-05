@@ -1,5 +1,5 @@
 # mgbaybay-kodego
-Contains all actitvities/exercises from bootcamp
+Contains all activities/exercises from bootcamp
 
 NOTES
 1. Files are named according to the date/activity.
