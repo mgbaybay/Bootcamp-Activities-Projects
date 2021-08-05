@@ -25,4 +25,4 @@ SORTING BOOKS
 SEPARATING READ AND UNREAD BOOKS
 1. An array _book_is_read_ stores books that have been read.
 2. An array _book_is_not_read_ stores books that have not been read.
-3. IF ELSE was used to iterate each books and check if they have been read or not, then stores each books according to their respective containers. 
+3. IF ELSE was used to iterate each books and check if they have been read or not, then stores each book according to their respective containers. 
