@@ -6,4 +6,4 @@ NOTES
 2. Files were mostly uploaded after class.
 3. Some activities were done multiple times using different methods
 4. All Codes/functions written have been studied. I refrain from doing copy-paste of codes from the internet
-5. Each folder contains a separate README file which explains the logic behind the code
+5. I try to write a README file on each folder which explains the logic behind the code
