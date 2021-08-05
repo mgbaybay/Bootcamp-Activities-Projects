@@ -13,6 +13,8 @@ SECOND METHOD - OBJECT CONSTRUCTOR
 4. To create new objects, "let" and "new" keywords were used.
 5. An array named _bookShelf_ was created to store all books for easier sorting/separation later.
 
+******************************************
+
 SORTING BOOKS
 1. To sort the books by their name, the built-in **sort()** function in JS was used.
 2. The sort function takes two items named _book1_ and _book2_ for comparison to arrange them in ascending order.
