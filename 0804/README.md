@@ -19,7 +19,7 @@ SORTING BOOKS
 1. To sort the books by their name, the built-in **sort()** function in JS was used.
 2. The sort function takes two items named _book1_ and _book2_ for comparison to arrange them in ascending order.
 3. The function returns -1 if the items being compared don't need to be sorted.
-4. Otherwise, the function returns 1 which means that the items need to be sorted.
+4. Otherwise, the function returns 1 if the items need to be sorted.
 5. If the function was successfully executed, it returns 0.
 
 SEPARATING READ AND UNREAD BOOKS
