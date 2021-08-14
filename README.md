@@ -45,6 +45,7 @@ FOR TRACKING PURPOSES
 | 0812 |  | |  | 
 | 0813 | JSX Shopping Cart and Local Storage | Finished | Github, GDrive, Local Storage | 
 
+
 MINI PROJECTS
 
 | Project Name |    Repository Link    | Live Link |  
