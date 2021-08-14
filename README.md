@@ -1,7 +1,7 @@
 # mgbaybay-kodego
 Contains all activities from bootcamp
 
-NOTES
+#### NOTES
 1. Files were named according to the date/activity.
 2. Files were mostly uploaded after class.
 3. Some activities were done multiple times using different methods
@@ -12,7 +12,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 
 ********************************************************
 
-FOR TRACKING PURPOSES
+### FOR TRACKING PURPOSES
 
 | Date |    Activity    | Status | Location |  
 |------|----------------|--------|-----------|
@@ -37,9 +37,9 @@ FOR TRACKING PURPOSES
 | 0730 |  | |  | 
 | 0802 |  | |  | 
 | 0803 |  | |  | 
-| 0804 | JS Library | Finished | Github, GDrive, Local Storage |
-| 0805 | JS Shopping Cart (via console) | Finished | Github, GDrive, Local Storage |
-| 0806 | JS Shopping Cart and Local Storage (via HTML document) | Finished | Github, GDrive, Local Storage |
+| 0804 | JS Library | Finished | [Github](https://github.com/mgbaybay/mgbaybay-kodego/tree/main/0804), GDrive, Local Storage |
+| 0805 | JS Shopping Cart (via console) | Finished | [Github](https://github.com/mgbaybay/mgbaybay-kodego/tree/main/0805), GDrive, Local Storage |
+| 0806 | JS Shopping Cart and Local Storage (via HTML document) | Finished | [Github](https://github.com/mgbaybay/mgbaybay-kodego/tree/main/0806), GDrive, Local Storage |
 | 0809 |  | |  | 
 | 0810 |  | |  | 
 | 0811 |  | |  | 
@@ -48,10 +48,10 @@ FOR TRACKING PURPOSES
 
 
 ********************************************************
-MINI PROJECTS
+### MINI PROJECTS
 
 | Project Name |    Repository Link    | Live Link |  
 |--------------|----------------|--------|
-| Online Magazine | https://github.com/mgbaybay/online_magazine | https://mgbaybay.github.io/online-magazine/ | 
-| Company Website | https://github.com/mgbaybay/J-M-Technologies | https://mgbaybay.github.io/J-M-Technologies/ | 
+| Online Magazine | [Repository](https://github.com/mgbaybay/online_magazine) | [Go to site](https://mgbaybay.github.io/online-magazine/) | 
+| Company Website | [Repository](https://github.com/mgbaybay/J-M-Technologies) | [Go to site](https://mgbaybay.github.io/J-M-Technologies/) | 
 | School Website | In Progress  | In Progress |  
