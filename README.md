@@ -37,8 +37,8 @@ FOR TRACKING PURPOSES
 | 0802 |  | |  | 
 | 0803 |  | |  | 
 | 0804 | JS Library | Finished | Github, GDrive, Local Storage |
-| 0805 | JS Shopping Cart (console log) | Finished | Github, GDrive, Local Storage |
-| 0806 | JS Shopping Cart and Local Storage | Finished | Github, GDrive, Local Storage |
+| 0805 | JS Shopping Cart (via console) | Finished | Github, GDrive, Local Storage |
+| 0806 | JS Shopping Cart and Local Storage (via HTML document) | Finished | Github, GDrive, Local Storage |
 | 0809 |  | |  | 
 | 0810 |  | |  | 
 | 0811 |  | |  | 
