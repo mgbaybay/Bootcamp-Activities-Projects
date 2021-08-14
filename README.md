@@ -8,7 +8,7 @@ NOTES
 4. All codes/functions written have been analyzed. I refrain from copying-and-pasting codes from the internet
 5. I try to write a README file on each folder which explains the logic or process in writing the code
 
-For questions and corrections, kindly dm me on discord. Thanks! :)
+For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 
 ********************************************************
 
