@@ -17,12 +17,12 @@
          }
 
          class ShoppingCart {
-            constructor(products, totalPrice) {
-               this.products = []
+            constructor(cartItems, totalPrice) {
+               this.cartItems = []
                this.totalPrice = 0
             }
             addToCart(product) {
-               this.products.push(product)
+               this.cartItems.push(product)
                this.totalPrice += product.price
             }
          }
