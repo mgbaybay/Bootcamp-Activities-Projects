@@ -50,8 +50,8 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 ********************************************************
 ### MINI PROJECTS
 
-| Project Name |    Repository Link    | Live Link |  
-|--------------|----------------|--------|
-| Online Magazine | [Repository](https://github.com/mgbaybay/online_magazine) | [Go to site](https://mgbaybay.github.io/online-magazine/) | 
-| Company Website | [Repository](https://github.com/mgbaybay/J-M-Technologies) | [Go to site](https://mgbaybay.github.io/J-M-Technologies/) | 
-| School Website | In Progress  | In Progress |  
+| Project Name |    Repository Link    | Live Link | Collaborators 
+|--------------|----------------|--------|--------|
+| Online Magazine | [Repository](https://github.com/mgbaybay/online_magazine) | [Go to site](https://mgbaybay.github.io/online-magazine/) | None
+| Company Website | [Repository](https://github.com/mgbaybay/J-M-Technologies) | [Go to site](https://mgbaybay.github.io/J-M-Technologies/) | Jedd
+| School Website | In Progress  | In Progress | Jedd
