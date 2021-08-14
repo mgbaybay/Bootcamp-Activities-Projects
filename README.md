@@ -46,10 +46,11 @@ FOR TRACKING PURPOSES
 | 0813 | JSX Shopping Cart and Local Storage | Finished | Github, GDrive, Local Storage | 
 
 
+********************************************************
 MINI PROJECTS
 
 | Project Name |    Repository Link    | Live Link |  
 |--------------|----------------|--------|
-| Online Magazine | First HTML Page | Finished | 
-| Company Website | Table and List | Finished | 
-| School Website | Table and Div  | Finished |  
+| Online Magazine | https://github.com/mgbaybay/online_magazine | https://mgbaybay.github.io/online-magazine/ | 
+| Company Website | https://github.com/mgbaybay/J-M-Technologies | https://mgbaybay.github.io/J-M-Technologies/ | 
+| School Website | In Progress  | In Progress |  
