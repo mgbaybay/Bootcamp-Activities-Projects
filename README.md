@@ -10,13 +10,12 @@ NOTES
 6. Some exercises/code-alongs are not included
 
 ********************************************************
-| Task           | Time required | Assigned to   | Current Status | Finished | 
-|----------------|---------------|---------------|----------------|-----------|
-| Calendar Cache | > 5 hours  |  | in progress | - [x] ok?
-| Object Cache   | > 5 hours  |  | in progress | [x] item1<br/>[ ] item2
-| Object Cache   | > 5 hours  |  | in progress | <ul><li>- [x] item1</li><li>- [ ] item2</li></ul>
-| Object Cache   | > 5 hours  |  | in progress | <ul><li>[x] item1</li><li>[ ] item2</li></ul>
-
+| Date |    Activity    | Status | Location |  
+|------|----------------|--------|-----------|
+| 0706 | > 5 hours  | Finished | GDrive, Local Storage | 
+| 0707 | > 5 hours  | Finished | GDrive, Local Storage | 
+| 0708 | > 5 hours  | Finished | GDrive, Local Storage | 
+| 0709 | > 5 hours  | Finished | GDrive, Local Storage | 
 
 FOR TRACKING PURPOSES
 
