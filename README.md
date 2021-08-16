@@ -20,6 +20,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 | 0707 | Table and List | Finished | GDrive, Local Storage | 
 | 0708 | Table and Div  | Finished | GDrive, Local Storage | 
 | 0709 | to update | to update | to update | 
+||
 | 0712 | Tables (colspan/rowspan) | Finished | GDrive, Local Storage | 
 | 0713 |  to update | to update | to update |
 | 0714 | Avocado Layout with Form | Finished | GDrive, Local Storage | 
