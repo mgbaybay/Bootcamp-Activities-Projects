@@ -2,5 +2,5 @@
 
 ### One to Many
 
-### Many to One
+### Many to Many
 I only put the information on Author and Book, I'll add information on the Catalog ID and ISBN if needed
