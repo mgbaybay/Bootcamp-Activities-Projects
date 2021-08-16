@@ -45,6 +45,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 | 0811 |  | |  | 
 | 0812 |  | |  | 
 | 0813 | JSX Shopping Cart and Local Storage | Finished | Github, GDrive, Local Storage | 
+| 0816 | Data Relationship | Finished | [Github](https://github.com/mgbaybay/mgbaybay-kodego/tree/main/0816), GDrive, Local Storage | 
 
 
 ********************************************************
