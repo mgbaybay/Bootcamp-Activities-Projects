@@ -19,5 +19,7 @@
 | 201 | 07085  | HTML and CSS  | 552924853 |
 | 202 | 07085 | HTML and CSS  | 552924853 |
 
+**************************************
+
 ### Many to Many
 I only put the information on Author and Book, I'll add information on the Catalog ID and ISBN if needed
