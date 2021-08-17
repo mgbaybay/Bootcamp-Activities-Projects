@@ -55,7 +55,7 @@ Catalog ID |  Title   | Author ID | ISBN |
 |------|------|----------------|--------|
 |01608| Database Basics | 00001 | 758573060 |
 |00816| Learn Javascript | 00618 | 308056296 |
-|00816| Learn Javascript | 00816 | 308056296 |
+|00816| Learn Javascript | 00186 | 308056296 |
 |07085| HTML and CSS | 07085 |  552924853 |
 
 
