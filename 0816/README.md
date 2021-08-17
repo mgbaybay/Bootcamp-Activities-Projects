@@ -39,7 +39,7 @@ I only put the information on Author and Book, I'll add information on the Catal
 | 00001 | Juan | dela Cruz | July 20 1958 | Australia |
 | 00618 | Pedro | Penduko | December 25 1978 | Philippines |
 | 00186 | Nene | Penduko | January 01 1972 | USA |
-| 00106 | Piolo | Pascual | March 01 1972 | Nethderlands |
+| 00106 | Piolo | Pascual | March 01 1972 | Netherlands |
 
 
 #### Book Details
