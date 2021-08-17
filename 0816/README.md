@@ -39,6 +39,7 @@ I only put the information on Author and Book, I'll add information on the Catal
 | 00001 | Juan | dela Cruz | July 20 1958 | Australia |
 | 00618 | Pedro | Penduko | December 25 1978 | Philippines |
 | 00186 | Nene | Penduko | January 01 1972 | USA |
+| 00106 | Piolo | Pascual | March 01 1972 | Nethderlands |
 
 
 #### Book Details
@@ -54,7 +55,8 @@ Catalog ID |  Title   | Author ID | ISBN |
 |------|------|----------------|--------|
 |01608| Database Basics | 00001 | 758573060 |
 |00816| Learn Javascript | 00618 | 308056296 |
-|07085| HTML and CSS | 00816 |  552924853 |
+|00816| Learn Javascript | 00816 | 308056296 |
+|07085| HTML and CSS | 07085 |  552924853 |
 
 
 
