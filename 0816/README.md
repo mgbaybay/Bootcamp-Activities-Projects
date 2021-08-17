@@ -23,3 +23,12 @@
 
 ### Many to Many
 I only put the information on Author and Book, I'll add information on the Catalog ID and ISBN if needed
+
+#### Card Catalog
+| Catalog  ID  |  Title   | Author | ISBN | 
+|------|----------------|--------|--------|
+| 01608 | Database Basics | Juan dela Cruz | 758573060 |
+| 00816 | Learn Javascript | Pedro Penduko | 308056296 |
+| 00816 | Learn Javascript | Nene Penduko | 308056296 |
+| 07085 | HTML and CSS  | Piolo Pascual | 552924853 | 
+
