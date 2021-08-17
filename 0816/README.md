@@ -32,11 +32,26 @@ I only put the information on Author and Book, I'll add information on the Catal
 | 00816 | Learn Javascript | Nene Penduko | 308056296 |
 | 07085 | HTML and CSS  | Piolo Pascual | 552924853 | 
 
-
-#### Author Information
+#### Author Details
 | Author ID  |  First Name   | Last Name | Date of Birth | Country of Origin
 |------|----------------|--------|--------| ------|
 | 00001 | Juan | dela Cruz | July 20 1958 | Australia |
 | 00618 | Pedro | Penduko | December 25 1978 | Philippines |
 | 00186 | Nene | Penduko | January 01 1972 | USA |
+
+#### Book Details
+| Title |  Publisher  | Yr Published | ISBN | 
+|------|----------------|--------|--------| 
+| Database Basics  | SM Publishing | 2000| 758573060  | 
+| Learn Javascript | Megaworld | 1999 | 308056296 |
+| HTML and CSS | Ayala | 2010 | 552924853|
+
+### Catalog ID
+|  Title   | Author | ISBN | 
+|------|----------------|--------|--------|
+| Database Basics | Juan dela Cruz | 758573060 |
+| Learn Javascript | Pedro Penduko | 308056296 |
+| HTML and CSS | Peiolo Pascual |  552924853 |
+
+
 
