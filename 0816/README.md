@@ -50,11 +50,11 @@ I only put the information on Author and Book, I'll add information on the Catal
 
 
 #### Catalog ID
-|  Title   | Author | ISBN | 
+|  Title   | Author ID | ISBN | 
 |------|----------------|--------|
-| Database Basics | Juan dela Cruz | 758573060 |
-| Learn Javascript | Pedro Penduko | 308056296 |
-| HTML and CSS | Peiolo Pascual |  552924853 |
+| Database Basics | 00001 | 758573060 |
+| Learn Javascript | 00618 | 308056296 |
+| HTML and CSS | 00816 |  552924853 |
 
 
 
