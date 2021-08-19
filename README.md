@@ -17,10 +17,10 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 
 #### [I. Intro to Web Development](https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing)
 
-| Activity | Date |
-|----------|------|
-| Create Your First HTML page | 0706 |
-| Recreate the World's First Website | 0706 | 
+|No | Activity | Date |
+|---|----------|------|
+| 1 | Create Your First HTML page | 0706 |
+| 2 | Recreate the World's First Website | 0706 | 
 
 #### [II. HTML](https://drive.google.com/drive/folders/173Mbg7owW08Ldm1EHx3bWka7o6oh3Bx5?usp=sharing)
 | Activity | Date |
