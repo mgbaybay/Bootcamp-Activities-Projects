@@ -65,11 +65,12 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
         <tr>
             <td rowspan=2>I. Intro to Web Development</td>
             <td>Create Your First HTML page</td>
-            <td>0706</td>
-            <td><a href='https://drive.google.com/drive/folders/1EUfqiBbl8l_iWSKkPPqm_uD73tB4oS3H?usp=sharing'>GDrive</a></td>
+            <td rowspan=2>0706</td>
+            <td><a href='https://drive.google.com/drive/folders/1EUfqiBbl8l_iWSKkPPqm_uD73tB4oS3H?usp=sharing'>GDrive</a>             </td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            <td>Recreate the World's First Website</td>
+            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
         </tr>
         <tr>
             <td rowspan=2>L2 Name B</td>
