@@ -32,8 +32,8 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 ### [III. HTML & CSS](https://drive.google.com/drive/folders/1O5XkTlen2ccuKTZWY-NcIsZ9H0iI_3bg?usp=sharing)
 |No | Activity | Date |
 |---|----------|------|
-| 1 | HTML Table Rowspan and Colspan | 0712 |
-| 2 | HTML-CSS Page Layout | 0708 |
+| 1 | HTML Table Rowspan and Colspan | 07-12 |
+| 2 | HTML-CSS Page Layout | 07-08 |
 
 ### [IV. Responsive Website](https://drive.google.com/drive/folders/1HvCmAHga-OGZ5RUo3ACWI71-TWiH8UmK?usp=sharing)
 |No | Activity | Date |
@@ -51,17 +51,17 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 ### [VI. Bootstrap](https://drive.google.com/drive/folders/1gAsltbocBsexjZsk9_e45VnfRmfVDmep?usp=sharing)
 |No | Activity | Date |
 |---|----------|------|
-| 1 | Create a Shopping Cart Billing Form using Bootstrap | 0719 |
+| 1 | Create a Shopping Cart Billing Form using Bootstrap | 07-19 |
 
 ### [VII. Git](https://drive.google.com/drive/folders/1Rprqz0lacyM7hfymnVEGfZQnGVo6FW4_?usp=sharing)
 |No | Activity | Date |
 |---|----------|------|
-| 1 | Setup and configure GitHub Repository | |
+| 1 | Setup and configure GitHub Repository | 07-19 |
 
 ### [VIII. Intro to Programming](https://drive.google.com/drive/folders/1ZJxgWzjem4oC1hn_1mPXWp8Bl25netQm?usp=sharing)
 |No | Activity | Date |
 |---|----------|------|
-| 1 | Create a Clinical Care Sytem Workflow (Algorithm, PSeudocode and Flowchart) | 0721 |
+| 1 | Create a Clinical Care Sytem Workflow (Algorithm, PSeudocode and Flowchart) | 07-21 |
 
 ### [IX. SASS](https://drive.google.com/drive/folders/1ayYsn6T4FxyS2s2UvvvXju9ViLIAKbk3?usp=sharing)
 |No | Activity | Date |
@@ -71,15 +71,15 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 ### [X. Javascript](https://drive.google.com/drive/folders/1iYtoPaTLM7qnLqis0W46jWj5iZYt_A43?usp=sharing)
 |No | Activity | Date |
 |---|----------|------|
-| 1 | Create a Simple Calculator | 0726 |
-| 2 | Enhanced Calculator with CSS layout and Javascript | 0728 |
-| 3 | Create Patient Information with Form Validation | 0802 | 
+| 1 | Create a Simple Calculator | 07-26 |
+| 2 | Enhanced Calculator with CSS layout and Javascript | 07-28 |
+| 3 | Create Patient Information with Form Validation | 08-02 | 
 
 ### [XI. ReactJS](https://drive.google.com/drive/folders/1FGu_a5FWyXANmjBedNp52gbnb6B9BQMJ?usp=sharing)
 |No | Activity | Date |
 |---|----------|------|
-| 1 | Simple Shopping Cart using ReactJS | 0813 |
-| 2 | Create a Coding Journal and Task List using ReactJS, Material-UI and Bootstrap | 0813 |
+| 1 | Simple Shopping Cart using ReactJS | 08-13 |
+| 2 | Create a Coding Journal and Task List using ReactJS, Material-UI and Bootstrap | 08-13 |
 
 ### [XII. Database Concept](https://drive.google.com/drive/folders/1IxoZ478kT9SXX7poHx5lPFmCmgsEd-Z1?usp=sharing)
 |No | Activity | Date |
