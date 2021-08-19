@@ -31,10 +31,11 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                 </a>
             </td>
             <td>Create Your First HTML page</td>
-            <td rowspan=2>0706</td>
+            <td>0706</td>
         </tr>
         <tr>
             <td>Recreate the World's First Website</td>
+            <td>0706</td>
         </tr>
         <tr>
             <td rowspan=3>
@@ -43,49 +44,54 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                 </a>
             </td>
             <td>HTML Tags and Attributes</td>
-            <td rowspan=3>0707</td>
+            <td>0707</td>
         </tr>
         <tr>
             <td>Tabular Data of Person Information</td>
+            <td>0707</td>
         </tr>
         <tr>
             <td>HTML Form - Create Registration Form</td>
+            <td>0707</td>
         </tr>
         <tr>
             <td rowspan=2>
-                <a href='https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing'>
+                <a href='https://drive.google.com/drive/folders/1O5XkTlen2ccuKTZWY-NcIsZ9H0iI_3bg?usp=sharing'>
                     III. HTML & CSS
                 </a>
             </td>
             <td>HTML Table Rowspan and Colspan</td>
-            <td rowspan=2>to update</td>
+            <td>to update</td>
         </tr>
         <tr>
             <td>HTML-CSS Page Layout</td>
+            <td>to update</td>
         </tr>
          <tr>
             <td rowspan=2>
-                <a href='https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing'>
+                <a href='https://drive.google.com/drive/folders/1HvCmAHga-OGZ5RUo3ACWI71-TWiH8UmK?usp=sharing'>
                     IV. Responsive Website
                 </a>
             </td>
             <td>Create a single page magazine responsive website</td>
-            <td rowspan=2>0713</td>
+            <td>0713</td>
         </tr>
         <tr>
             <td>Create a Travel Gallery responsive site</td>
+            <td>0713</td>
         </tr>
         <tr>
             <td rowspan=3>
-                <a href='https://drive.google.com/drive/folders/173Mbg7owW08Ldm1EHx3bWka7o6oh3Bx5?usp=sharing'>
+                <a href='https://drive.google.com/drive/folders/1gYTsurUzqNlysu3ci0RTu3Tgjd8PmCCg?usp=sharing'>
                     V. CSS FLexbox and Grid
                 </a>
             </td>
             <td>Create a Holy Grail layout using Flex</td>
-            <td rowspan=2>0714</td>
+            <td>0714</td>
         </tr>
         <tr>
             <td>Create a Holy Grail layout with Forms</td>
+            <td>0714</td>
         </tr>
         <tr>
             <td>Create a Web Forms using Grid based layout</td>
@@ -102,7 +108,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
         </tr>
         <tr>
             <td colspan=3>
-                <a href='https://drive.google.com/drive/folders/1IxoZ478kT9SXX7poHx5lPFmCmgsEd-Z1?usp=sharing'>
+                <a href='https://drive.google.com/drive/folders/1Rprqz0lacyM7hfymnVEGfZQnGVo6FW4_?usp=sharing'>
                     VII. Git 
                 </a>
             </td>
@@ -127,7 +133,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
         </tr>
          <tr>
             <td rowspan=3>
-                <a href='https://drive.google.com/drive/folders/173Mbg7owW08Ldm1EHx3bWka7o6oh3Bx5?usp=sharing'>
+                <a href='https://drive.google.com/drive/folders/1iYtoPaTLM7qnLqis0W46jWj5iZYt_A43?usp=sharing'>
                     X. Javascript
                 </a>
             </td>
@@ -149,10 +155,11 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                 </a>
             </td>
             <td>Simple Shopping Cart using ReactJS</td>
-            <td rowspan=2>0813</td>
+            <td>0813</td>
         </tr>
         <tr>
             <td>Create a Coding Journal and Task List using ReactJS, Material-UI and Bootstrap</td>
+            <td>0813</td>
         </tr>
         <tr>
             <td>
