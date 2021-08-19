@@ -15,6 +15,13 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 
 ### FOR TRACKING PURPOSES
 
+### [I. Intro to Web Development](https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing)
+
+| Activity | Date |
+|----------|------|
+| Create Your First HTML page | 0706 |
+| Recreate the World's First Website | 0706 |
+
 <table>
     <thead>
         <tr>
