@@ -1,0 +1,144 @@
+/***********SCSS file for 0723 EXERCISE********/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 5px;
+}
+
+nav, section, aside, footer {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 19px;
+}
+
+nav {
+  min-width: 95vw;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  font-family: Arial;
+  list-style: none;
+  margin: 0 20px;
+  padding: 1px;
+  width: 100%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+nav li {
+  float: right;
+}
+
+nav li:hover {
+  background-color: red;
+}
+
+nav a {
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: coral;
+}
+
+nav .logo {
+  background-color: whitesmoke;
+  border: 2px solid black;
+  width: 200px;
+  height: 80%;
+  padding: auto;
+  color: gray;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+nav .logo > h3 {
+  margin: 22px auto;
+}
+
+section {
+  width: 60vw;
+  height: 69vh;
+  float: left;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+}
+
+aside {
+  width: 35vw;
+  height: 69vh;
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  width: 97vw;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer p {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 9vw;
+}
+
+footer h3 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 85vw;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}

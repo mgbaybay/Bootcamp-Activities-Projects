@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avocado Layout</title>
+    <style>
+        
+        /*Layout*/
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        header, footer{
+            background-color: yellowgreen;
+            height: 15vh;
+        }
+        header, footer, article, aside, nav{
+            padding: 30px;
+        }
+        .container{
+            display: flex;
+            height: 70vh;
+        }
+        .container>nav{ 
+            background-color: lightgrey;
+            flex: 1;
+            order: 1;
+        }
+        .container>aside{
+            background-color: beige;
+            flex: 1;
+        }
+        .container>article{
+            flex: 3;
+        }
+
+        /*Responsiveness*/
+        @media screen and (max-width: 675px){
+            .container{
+                flex-direction: column;
+            }
+        }
+        @media screen and (min-width: 250%){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+    </head>
+
+    <body>
+        <header><h2>Header</h2></header>
+        <div class="container">
+            <article><h2>Article</h2></article>
+            <aside><h2>Aside</h2></aside>
+            <nav><h2>Navigation</h2></nav>
+        </div>
+        <footer><h2>Footer</h2></footer>
+    </body>
+</html>

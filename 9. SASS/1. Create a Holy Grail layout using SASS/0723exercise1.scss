@@ -1,0 +1,130 @@
+
+/***********SCSS file for 0723 EXERCISE********/
+
+//Page Layout
+*{
+   box-sizing: border-box;
+   margin: 5px;
+}
+
+//Global Variables
+$fontStyle: Arial;
+$fontSize: 20px;
+$boxStyle: 2px solid black lightgrey 10px 19px;
+
+//MIXIN for section layouts
+@mixin box($bwidth, $bstyle, $bcolor, $background, $padding, $margin){
+	border-width: $bwidth;
+	border-style: $bstyle;
+	border-color: $bcolor;
+   background-color: $background;
+   padding: $padding;
+   margin-bottom: $margin;
+}
+
+//SECTIONS
+nav, section, aside, footer{
+	@include box($boxStyle...);
+}
+
+nav{
+   min-width: 95vw;
+   height: 15vh;
+   display: flex;
+
+   ul{
+      font-family: $fontStyle;
+		list-style: none;
+		margin: 0 20px;
+		padding: 1px;
+		width: 100%;
+      align-self: flex-end;
+	}
+
+	li{
+		float: right;
+
+		&:hover{
+			background-color: red;
+		}
+	}
+
+	a{
+		display: block;
+		padding: 8px 10px;
+		text-decoration: none;
+      color: black;
+		
+		&:hover{
+			color: coral;
+		}
+	}
+
+   .logo{
+      background-color: whitesmoke;
+      border: 2px solid black;
+      width: 200px;
+      height: 80%;
+      padding: auto;
+      color: gray;
+      align-self: center; 
+      text-align: center;     
+   }
+   
+   .logo>h3{
+      margin: 22px auto;
+   }
+}
+
+section{
+   width: 60vw;
+   height: 69vh;
+   float: left;
+   vertical-align: middle;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 10px;
+}
+
+aside{
+   width: 35vw;
+   height: 69vh;
+   float: right;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+footer{
+   width: 97vw;
+   height: 8vh;
+   display: flex;
+
+   p{
+      order: 1;
+      font-family: $fontStyle;
+      margin: 0;
+      padding: 0;
+      align-self: flex-end;
+      width: 9vw;
+      
+   }
+
+   h3{
+      order: 2;
+      align-self: center;
+      justify-content: center;
+      width: 85vw;
+   }
+}
+
+//FONT STYLING
+h3{
+   font-family: $fontStyle;
+   font-size: $fontSize;
+   text-transform: uppercase;
+   text-align: center;
+   justify-content: center;
+}
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avocado Layout</title>
+    <style>
+        
+        /*Layout*/
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        header, footer{
+            background-color: yellowgreen;
+            height: 10vh;
+        }
+        header, footer, article, aside, nav{
+            padding: 15px;
+        }
+
+        /*Main Container*/
+        .container{
+            display: flex;
+            height: 80vh;
+        }
+        .container>nav{ 
+            background-color: lightgrey;
+            flex: 1;
+            order: 1;
+        }
+        .container>aside{
+            background-color: beige;
+            flex: 1;
+        }
+        .container>article{
+            flex: 3;    
+        }
+
+        /*Container inside article*/
+        .article-container{
+            background-color: beige;
+            margin: 10px 100px 10px 100px;
+            display: flex;
+            flex-direction: row;
+            width: 800px;
+            height: 60vh;
+        }
+
+        /*Columns for form*/
+        .column{
+            background-color: beige;
+            display:flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            padding: 25px;
+            height: 60vh;
+        }
+
+        /*font formatting*/
+        p{
+            margin: 5px;
+        }
+        
+        /*Responsiveness*/
+        @media screen and (max-width: 675px){
+            .container, .article-container, .column{
+                flex-direction: column;
+            }
+            .article-container{
+                width: 85%;
+                margin: 0 auto;
+            }
+            .column, .article-container{
+                height: inherit;
+                margin: 0px;
+                padding: 5px;
+            }
+            header, footer, article, aside, nav{
+                padding: 5px;
+            }
+            h2{
+                font-size: 15px;
+                margin: 0;
+            }
+            footer, header{
+                height: 10vh;
+            }
+            p{
+                margin: 0;
+            }
+        }
+    </style>
+    </head>
+
+    <body>
+        <!--Header-->
+        <header><h2>Header</h2></header>
+        
+        <!--Main Container-->
+        <div class="container">
+            
+            <!--Article-->
+            <article><h2>Article</h2>
+
+                <!--Container inside article-->
+                <div class="article-container">
+                     <!--Left Column-->
+                    <div class="column">
+                        <p>Name <input type="text" name="name"/></p>
+                        <p>Phone <input type="text" name="phone"/></p>
+                        <p>Email <input type="text" name="email"/></td></p>
+                        <p>Pick-up date/time <input type="datetime-local" id="birthdaytime" name="birthdaytime"></p>
+                        <p>Pick-up Place <select name = "dropdown">
+                            <option value="Select 1" selected> Select 1 </option>
+                        </select></p>
+                        <p>Drop-off Place <input type="text" name="drop_off"/></p>
+                    </div>
+                    <!--Right Column-->
+                    <div class="column">
+                        <p>Which vehicle do you require? <br>
+                            <input type="radio" name=vehicle value="van">Van <br>
+                            <input type="radio" name=vehicle value="Jeepney">Jeepney <br>
+                            <input type="radio" name=vehicle value="tricycle">Tricycle <br>
+                        </p>
+                        <p>Extras <br>
+                            <input type="checkbox" name="html" value="on">Baby Seat <br>
+                            <input type="checkbox" name="css" value="on">Wheelchair Access <br>
+                            <input type="checkbox" name="javascript" value="on">Stock tip <br>
+                        </p>
+                        <p>
+                            <form><p><input type="submit" value="Submit Booking"></p></form>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            
+            <!--Aside Section-->
+            <aside><h2>Aside</h2></aside>
+            
+            <!--Navigation-->
+            <nav><h2>Navigation</h2></nav>
+        </div>
+        
+            <!--Footer-->
+        <footer><h2>Footer</h2></footer>
+    </body>
+</html>
