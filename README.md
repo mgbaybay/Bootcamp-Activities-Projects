@@ -63,7 +63,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
     </thead>
     <tbody>
         <tr>
-            <td rowspan=2>I. Intro to Web Development</td>
+            <td rowspan=2><a href='https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing'>I. Intro to Web Development</a></td>
             <td>Create Your First HTML page</td>
             <td rowspan=2>0706</td>
             <td><a href='https://drive.google.com/drive/folders/1EUfqiBbl8l_iWSKkPPqm_uD73tB4oS3H?usp=sharing'>GDrive</a>             </td>
