@@ -73,11 +73,64 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
             <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
+            <td rowspan=3>II. HTML</td>
+            <td>HTML Tags and Attributes</td>
+            <td rowspan=3>0707</td>
+            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
+            <td>Recreate the World's First Website</td>
+            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
         </tr>
+        </tr>
+        <tr>
+            <td rowspan=3>II. HTML</td>
+            <td>HTML Tags and Attributes</td>
+            <td rowspan=3>0707</td>
+            <td><a href='https://drive.google.com/drive/folders/1S7w-hz6dhRW4nuhBrvUcYhwcham01vbS?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        <tr>
+            <td>Tabular Data of Person Information</td>
+            <td><a href='https://drive.google.com/drive/folders/1o-3xmlcxGem_1pbIs7GNUYi1yt0MuEQ-?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        <tr>
+            <td>HTML Form - Create Registration Form</td>
+            <td><a href='https://drive.google.com/drive/folders/1ekTIs3US61EtrrQLNudinofftWZyXYYu?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        <tr>
+            <td rowspan=2>III. HTML & CSS</td>
+            <td>HTML Table Rowspan and Colspan</td>
+            <td rowspan=2></td>
+            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        <tr>
+            <td>HTML-CSS Page Layout</td>
+            <td><a href='https://drive.google.com/drive/folders/1isB5axY8Aajs9J1KVTjc0Q1HMiC4XMP5?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        <tr>
+            <td rowspan=3>II. HTML</td>
+            <td>HTML Tags and Attributes</td>
+            <td rowspan=3>0707</td>
+            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        <tr>
+            <td rowspan=3>II. HTML</td>
+            <td>HTML Tags and Attributes</td>
+            <td rowspan=3>0707</td>
+            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        <tr>
+            <td rowspan=3>II. HTML</td>
+            <td>HTML Tags and Attributes</td>
+            <td rowspan=3>0707</td>
+            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        <tr>
+            <td rowspan=3>II. HTML</td>
+            <td>HTML Tags and Attributes</td>
+            <td rowspan=3>0707</td>
+            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
+        </tr>
+        
     </tbody>
 </table>
