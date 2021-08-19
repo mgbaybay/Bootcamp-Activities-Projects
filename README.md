@@ -15,31 +15,157 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 
 ### FOR TRACKING PURPOSES
 
-|Topic | Exercise | Date | Link |  
-|------|----------|------|------|
-| I. Intro to Web Development | Create Your First HTML page | 0706 | [GDrive](https://drive.google.com/drive/folders/1EUfqiBbl8l_iWSKkPPqm_uD73tB4oS3H?usp=sharing) 
-| | Recreate the World's First Website | 0706 | [GDrive](https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing) 
-|II. HTML | HTML Tags and Attributes | 0707 | [GDrive](https://drive.google.com/drive/folders/1S7w-hz6dhRW4nuhBrvUcYhwcham01vbS?usp=sharing) 
-|| Tabular Data of Person Information | 0707 | [Gdrive](https://drive.google.com/drive/folders/1o-3xmlcxGem_1pbIs7GNUYi1yt0MuEQ-?usp=sharing)  
-| | HTML Form - Create Registration Form | 0707 | [GDrive](https://drive.google.com/drive/folders/1ekTIs3US61EtrrQLNudinofftWZyXYYu?usp=sharing)  
-|III. HTML & CSS| HTML Table Rowspan and Colspan || [Gdrive](https://drive.google.com/drive/folders/11I8V1KRDT3g8-ebU4DxULxM6WeetMPfu?usp=sharing) 
-|| HTML-CSS Page Layout || [GDrive](https://drive.google.com/drive/folders/1isB5axY8Aajs9J1KVTjc0Q1HMiC4XMP5?usp=sharing) 
-|IV. Responsive Website | Create a single page magazine responsive website | 0713 | [GDrive](https://drive.google.com/drive/folders/1Mmwxilhkcv-VmXfGKFmEaAjgOIihiSrP?usp=sharing)
-|| Create a Travel Gallery responsive site | 0713 | [Gdrive](https://drive.google.com/drive/folders/1YWUVUZKEVv0b3twYfQrF7U2qlcqtD7xQ?usp=sharing) 
-|V. CSS FLexbox and Grid | Create a Holy Grail layout using Flex  | 0714 | [GDrive](https://drive.google.com/drive/folders/1qozeLyeXJ8F06wWCYRTq713UGojQ_9m1?usp=sharing)
-| | Create a Holy Grail layout with Forms | 0714 | [GDrive](https://drive.google.com/drive/folders/1bcQ6QSZV5Vu077_FS00GkgyRhRaTXSuY?usp=sharing) 
-|| Create a Web Forms using Grid based layout | 0715 | [GDrive](https://drive.google.com/drive/folders/1ysewP34z6WoA5RJp837rcMrp2pXy-mIH?usp=sharing)
-|VI. Bootstrap | Create a Shopping Cart Billing Form using Bootstrap  | 0719 | [GDrive](https://drive.google.com/drive/folders/1gAsltbocBsexjZsk9_e45VnfRmfVDmep?usp=sharing) 
-|VII. Git | Setup and configure GitHub Repository || to update |
-|VIII. Intro to Programming | Create a Clinical Care Sytem Workflow (Algorithm, PSeudocode and Flowchart) | 0721 | [GDrive](https://drive.google.com/drive/folders/1ZJxgWzjem4oC1hn_1mPXWp8Bl25netQm?usp=sharing)
-|IX. SASS | Create a Holy Grail layout using SASS | 0723 | [Gdrive](https://drive.google.com/drive/folders/1ayYsn6T4FxyS2s2UvvvXju9ViLIAKbk3?usp=sharing)
-|X. Javascript | Create a Simple Calculator | 0726 | [GDrive](https://drive.google.com/drive/folders/1BFr2_gw9EqgzX5KIEReaB9yY7WP2ivIY?usp=sharing)
-| | Enhanced Calculator with CSS layout and Javascript | 0728 | [GDrive](https://drive.google.com/drive/folders/1LgeJiufA79jSMBMONyBrrXlBsZnHOsqm?usp=sharing)
-| | Create Patient Information with Form Validation | 0802 | [GDrive](https://drive.google.com/drive/folders/1Bc_02dTxDwDeayKukVs2StJFcfOrNQSX?usp=sharing)
-|XI. ReactJS | Simple Shopping Cart using ReactJS | 0813 | [GDrive](https://drive.google.com/drive/folders/1DNeDHplTrc5yrl1sJyg7ra7hkyzR3Wo-?usp=sharing)
-|XI. ReactJS | Create a Coding Journal and Task List using ReactJS, Material-UI and Bootstrap | 0813 | [GDrive](https://drive.google.com/drive/folders/1x1m09myD_F5_IehEynp-Xh-fCAbAM7Ou?usp=sharing)
-|XII. Database Concept| Database Relationship | 0814 | [GDrive](https://drive.google.com/drive/folders/1R2JFZt4tTU036rpMBJzUD57QzA9cRg9R?usp=sharing)
-|XIII. SQL | SQL Activity | 0819 | |
+<table>
+    <thead>
+        <tr>
+            <th>Topic</th>
+            <th>Exercise</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=2>
+                <a href='https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing'>
+                    I. Intro to Web Development
+                </a>
+            </td>
+            <td>Create Your First HTML page</td>
+            <td rowspan=2>0706</td>
+        </tr>
+        <tr>
+            <td>Recreate the World's First Website</td>
+        </tr>
+        <tr>
+            <td rowspan=3>
+                <a href='https://drive.google.com/drive/folders/173Mbg7owW08Ldm1EHx3bWka7o6oh3Bx5?usp=sharing'>
+                    II. HTML
+                </a>
+            </td>
+            <td>HTML Tags and Attributes</td>
+            <td rowspan=3>0707</td>
+        </tr>
+        <tr>
+            <td>Tabular Data of Person Information</td>
+        </tr>
+        <tr>
+            <td>HTML Form - Create Registration Form</td>
+        </tr>
+        <tr>
+            <td rowspan=2>
+                <a href='https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing'>
+                    III. HTML & CSS
+                </a>
+            </td>
+            <td>HTML Table Rowspan and Colspan</td>
+            <td rowspan=2></td>
+        </tr>
+        <tr>
+            <td>HTML-CSS Page Layout</td>
+        </tr>
+         <tr>
+            <td rowspan=2>
+                <a href='https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing'>
+                    IV. Responsive Website
+                </a>
+            </td>
+            <td>Create a single page magazine responsive website</td>
+            <td rowspan=2>0713</td>
+        </tr>
+        <tr>
+            <td>Create a Travel Gallery responsive site</td>
+        </tr>
+        <tr>
+            <td rowspan=3>
+                <a href='https://drive.google.com/drive/folders/173Mbg7owW08Ldm1EHx3bWka7o6oh3Bx5?usp=sharing'>
+                    V. CSS FLexbox and Grid
+                </a>
+            </td>
+            <td>Create a Holy Grail layout using Flex</td>
+            <td rowspan=2>0714</td>
+        </tr>
+        <tr>
+            <td>Create a Holy Grail layout with Forms</td>
+        </tr>
+        <tr>
+            <td>Create a Web Forms using Grid based layout</td>
+            <td>0715</td>
+        </tr>
+        <tr>
+            <td>
+                <a href='https://drive.google.com/drive/folders/1gAsltbocBsexjZsk9_e45VnfRmfVDmep?usp=sharing'>
+                    VI. Bootstrap
+                </a>
+            </td>
+            <td>Create a Shopping Cart Billing Form using Bootstrap</td>
+            <td>0719</td>
+        </tr>
+        <tr>
+            <td>
+                <a href='https://drive.google.com/drive/folders/1IxoZ478kT9SXX7poHx5lPFmCmgsEd-Z1?usp=sharing'>
+                    VII. Git | Setup and configure GitHub Repository
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href='https://drive.google.com/drive/folders/1ZJxgWzjem4oC1hn_1mPXWp8Bl25netQm?usp=sharing'>
+                    VIII. Intro to Programming
+                </a>
+            </td>
+            <td>Create a Clinical Care Sytem Workflow (Algorithm, PSeudocode and Flowchart)</td>
+            <td>0721</td>
+        </tr>
+        <tr>
+            <td>
+                <a href='https://drive.google.com/drive/folders/1ayYsn6T4FxyS2s2UvvvXju9ViLIAKbk3?usp=sharing'>
+                    IX. SASS
+                </a>
+            </td>
+            <td>Create a Holy Grail layout using SASS</td>
+            <td>0723</td>
+        </tr>
+         <tr>
+            <td rowspan=3>
+                <a href='https://drive.google.com/drive/folders/173Mbg7owW08Ldm1EHx3bWka7o6oh3Bx5?usp=sharing'>
+                    X. Javascript
+                </a>
+            </td>
+            <td>Create a Simple Calculator</td>
+            <td>0726</td>
+        </tr>
+        <tr>
+            <td>Enhanced Calculator with CSS layout and Javascript</td>
+            <td>0728</td>
+        </tr>
+        <tr>
+            <td>Create Patient Information with Form Validation</td>
+            <td>0802</td>
+        </tr>
+        <tr>
+            <td rowspan=2>
+                <a href='https://drive.google.com/drive/folders/1FGu_a5FWyXANmjBedNp52gbnb6B9BQMJ?usp=sharing'>
+                    XI. ReactJS
+                </a>
+            </td>
+            <td>Simple Shopping Cart using ReactJS</td>
+            <td rowspan=2>0813</td>
+        </tr>
+        <tr>
+            <td>Create a Coding Journal and Task List using ReactJS, Material-UI and Bootstrap</td>
+        </tr>
+        <tr>
+            <td>
+                <a href='https://drive.google.com/drive/folders/1IxoZ478kT9SXX7poHx5lPFmCmgsEd-Z1?usp=sharing'>
+                    XII. Database Concept
+                </a>
+            </td>
+            <td>Database Relationship</td>
+            <td>0814</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ********************************************************
 ### MINI PROJECTS
@@ -52,85 +178,3 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 | School Website | In Progress  | In Progress | Jedd
 
 
-<table>
-    <thead>
-        <tr>
-            <th>Topic</th>
-            <th>Exercise</th>
-            <th>Date</th>
-            <th>Link</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=2><a href='https://drive.google.com/drive/folders/1zhBpx3f1F06w9UbWV3SEeGESN43q3DD4?usp=sharing'>I. Intro to Web Development</a></td>
-            <td>Create Your First HTML page</td>
-            <td rowspan=2>0706</td>
-            <td><a href='https://drive.google.com/drive/folders/1EUfqiBbl8l_iWSKkPPqm_uD73tB4oS3H?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td>Recreate the World's First Website</td>
-            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td rowspan=3>II. HTML</td>
-            <td>HTML Tags and Attributes</td>
-            <td rowspan=3>0707</td>
-            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td>Recreate the World's First Website</td>
-            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        </tr>
-        <tr>
-            <td rowspan=3>II. HTML</td>
-            <td>HTML Tags and Attributes</td>
-            <td rowspan=3>0707</td>
-            <td><a href='https://drive.google.com/drive/folders/1S7w-hz6dhRW4nuhBrvUcYhwcham01vbS?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td>Tabular Data of Person Information</td>
-            <td><a href='https://drive.google.com/drive/folders/1o-3xmlcxGem_1pbIs7GNUYi1yt0MuEQ-?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td>HTML Form - Create Registration Form</td>
-            <td><a href='https://drive.google.com/drive/folders/1ekTIs3US61EtrrQLNudinofftWZyXYYu?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td rowspan=2>III. HTML & CSS</td>
-            <td>HTML Table Rowspan and Colspan</td>
-            <td rowspan=2></td>
-            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td>HTML-CSS Page Layout</td>
-            <td><a href='https://drive.google.com/drive/folders/1isB5axY8Aajs9J1KVTjc0Q1HMiC4XMP5?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td rowspan=3>II. HTML</td>
-            <td>HTML Tags and Attributes</td>
-            <td rowspan=3>0707</td>
-            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td rowspan=3>II. HTML</td>
-            <td>HTML Tags and Attributes</td>
-            <td rowspan=3>0707</td>
-            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td rowspan=3>II. HTML</td>
-            <td>HTML Tags and Attributes</td>
-            <td rowspan=3>0707</td>
-            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        <tr>
-            <td rowspan=3>II. HTML</td>
-            <td>HTML Tags and Attributes</td>
-            <td rowspan=3>0707</td>
-            <td><a href='https://drive.google.com/drive/folders/1JJuR3F1pQy62QQ6-MKAYzOxMYTu-GiOW?usp=sharing'>GDrive</a>             </td>
-        </tr>
-        
-    </tbody>
-</table>
