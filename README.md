@@ -22,23 +22,24 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
 |II. HTML | 0708 | Table and Div  | Finished | GDrive, Local Storage | 
 |II. HTML | 0709 | to update | to update | to update | 
 |II. HTML | 0712 | Tables (colspan/rowspan) | Finished | GDrive, Local Storage | 
-|| 0713 |  to update | to update | to update |
-|| 0714 | Avocado Layout with Form | Finished | GDrive, Local Storage | 
-||0715 | Responsive Web Design | Finished | GDrive, Local Storage |
-|| 0716 |  to update | to update | to update |
-|| 0719 | Bootstrap ECart | Finished | Github, GDrive, Local Storage |
-|| 0720 |  to update | to update | to update | 
-|| 0721 | Clinic Directory | Finished | Github, GDrive, Local Storage |
-|| 0722 |  to update | to update | to update |
-|| 0723 |  to update | to update | to update |
-|| 0726 | Calculator (via JS Prompt) | Finished | GDrive, Local Storage |
-|| 0727 |  to update | to update | to update |
-|| 0728 | Calculator | Finished | Github, GDrive, Local Storage |
-|| 0729 |  to update | to update | to update |
-|| 0730 |  to update | to update | to update |
-|| 0802 |  to update | to update | to update |
-|| 0803 |  to update | to update | to update |
-|| 0804 | JS Library | Finished | [Github](https://github.com/mgbaybay/mgbaybay-kodego/tree/main/0804), GDrive, Local Storage |
+|III. HTML  & CSS| 0713 |  to update | to update | to update |
+|III. HTML  & CSS| 0714 | Avocado Layout with Form | Finished | GDrive, Local Storage | 
+|IV. Responsive Website|0715 | Responsive Web Design | Finished | GDrive, Local Storage |
+|IV. Responsive Website| 0716 |  to update | to update | to update |
+|V. CSS FLexbox and Grid| 0719 | Bootstrap ECart | Finished | Github, GDrive, Local Storage |
+|V. CSS FLexbox and Grid| 0720 |  to update | to update | to update | 
+|V. CSS FLexbox and Grid| 0721 | Clinic Directory | Finished | Github, GDrive, Local Storage |
+|VI. Bootstrap| 0722 |  to update | to update | to update |
+|VII. Git| 0723 |  to update | to update | to update |
+|VIII. Intro to Programming| 0726 | Calculator (via JS Prompt) | Finished | GDrive, Local Storage |
+|IX. SASS| 0727 |  to update | to update | to update |
+|X. Javascript| 0728 | Calculator | Finished | Github, GDrive, Local Storage |
+|X. Javascript| 0729 |  to update | to update | to update |
+|X. Javascript| 0730 |  to update | to update | to update |
+|XI. ReactJS| 0802 |  to update | to update | to update |
+|XI. ReactJS| 0803 |  to update | to update | to update |
+|XII. Database Concept| 0809 |  Database Relationship | Finished | to update |
+|XII. Database Concept| 0804 | JS Library | Finished | [Github](https://github.com/mgbaybay/mgbaybay-kodego/tree/main/0804), GDrive, Local Storage |
 || 0805 | JS Shopping Cart (via console) | Finished | [Github](https://github.com/mgbaybay/mgbaybay-kodego/tree/main/0805), GDrive, Local Storage |
 || 0806 | JS Shopping Cart and Local Storage (via HTML document) | Finished | [Github](https://github.com/mgbaybay/mgbaybay-kodego/tree/main/0806), GDrive, Local Storage |
 || 0809 |  to update | to update | to update |
