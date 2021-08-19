@@ -30,11 +30,11 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     I. Intro to Web Development
                 </a>
             </td>
-            <td>Create Your First HTML page</td>
+            <td>1. Create Your First HTML page</td>
             <td>0706</td>
         </tr>
         <tr>
-            <td>Recreate the World's First Website</td>
+            <td>2. Recreate the World's First Website</td>
             <td>0706</td>
         </tr>
         <tr>
@@ -43,15 +43,15 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     II. HTML
                 </a>
             </td>
-            <td>HTML Tags and Attributes</td>
+            <td>1. HTML Tags and Attributes</td>
             <td>0707</td>
         </tr>
         <tr>
-            <td>Tabular Data of Person Information</td>
+            <td>2. Tabular Data of Person Information</td>
             <td>0707</td>
         </tr>
         <tr>
-            <td>HTML Form - Create Registration Form</td>
+            <td>3. HTML Form - Create Registration Form</td>
             <td>0707</td>
         </tr>
         <tr>
@@ -60,11 +60,11 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     III. HTML & CSS
                 </a>
             </td>
-            <td>HTML Table Rowspan and Colspan</td>
+            <td>1. HTML Table Rowspan and Colspan</td>
             <td>to update</td>
         </tr>
         <tr>
-            <td>HTML-CSS Page Layout</td>
+            <td>2. HTML-CSS Page Layout</td>
             <td>to update</td>
         </tr>
          <tr>
@@ -73,11 +73,11 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     IV. Responsive Website
                 </a>
             </td>
-            <td>Create a single page magazine responsive website</td>
+            <td>1. Create a single page magazine responsive website</td>
             <td>0713</td>
         </tr>
         <tr>
-            <td>Create a Travel Gallery responsive site</td>
+            <td>2. Create a Travel Gallery responsive site</td>
             <td>0713</td>
         </tr>
         <tr>
@@ -86,15 +86,15 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     V. CSS FLexbox and Grid
                 </a>
             </td>
-            <td>Create a Holy Grail layout using Flex</td>
+            <td>1. Create a Holy Grail layout using Flex</td>
             <td>0714</td>
         </tr>
         <tr>
-            <td>Create a Holy Grail layout with Forms</td>
+            <td>2. Create a Holy Grail layout with Forms</td>
             <td>0714</td>
         </tr>
         <tr>
-            <td>Create a Web Forms using Grid based layout</td>
+            <td>3. Create a Web Forms using Grid based layout</td>
             <td>0715</td>
         </tr>
         <tr>
@@ -103,7 +103,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     VI. Bootstrap
                 </a>
             </td>
-            <td>Create a Shopping Cart Billing Form using Bootstrap</td>
+            <td>1. Create a Shopping Cart Billing Form using Bootstrap</td>
             <td>0719</td>
         </tr>
         <tr>
@@ -119,7 +119,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     VIII. Intro to Programming
                 </a>
             </td>
-            <td>Create a Clinical Care Sytem Workflow (Algorithm, PSeudocode and Flowchart)</td>
+            <td>1. Create a Clinical Care Sytem Workflow (Algorithm, PSeudocode and Flowchart)</td>
             <td>0721</td>
         </tr>
         <tr>
@@ -128,7 +128,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     IX. SASS
                 </a>
             </td>
-            <td>Create a Holy Grail layout using SASS</td>
+            <td>1. Create a Holy Grail layout using SASS</td>
             <td>0723</td>
         </tr>
          <tr>
@@ -137,15 +137,15 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     X. Javascript
                 </a>
             </td>
-            <td>Create a Simple Calculator</td>
+            <td>1. Create a Simple Calculator</td>
             <td>0726</td>
         </tr>
         <tr>
-            <td>Enhanced Calculator with CSS layout and Javascript</td>
+            <td>2. Enhanced Calculator with CSS layout and Javascript</td>
             <td>0728</td>
         </tr>
         <tr>
-            <td>Create Patient Information with Form Validation</td>
+            <td>3. Create Patient Information with Form Validation</td>
             <td>0802</td>
         </tr>
         <tr>
@@ -154,11 +154,11 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     XI. ReactJS
                 </a>
             </td>
-            <td>Simple Shopping Cart using ReactJS</td>
+            <td>1. Simple Shopping Cart using ReactJS</td>
             <td>0813</td>
         </tr>
         <tr>
-            <td>Create a Coding Journal and Task List using ReactJS, Material-UI and Bootstrap</td>
+            <td>2. Create a Coding Journal and Task List using ReactJS, Material-UI and Bootstrap</td>
             <td>0813</td>
         </tr>
         <tr>
@@ -167,7 +167,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                     XII. Database Concept
                 </a>
             </td>
-            <td>Database Relationship</td>
+            <td>1. Database Relationship</td>
             <td>0814</td>
         </tr>
     </tbody>
