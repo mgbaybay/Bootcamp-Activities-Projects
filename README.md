@@ -58,7 +58,7 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
                 </a>
             </td>
             <td>HTML Table Rowspan and Colspan</td>
-            <td rowspan=2></td>
+            <td rowspan=2>to update</td>
         </tr>
         <tr>
             <td>HTML-CSS Page Layout</td>
@@ -101,9 +101,9 @@ For questions and corrections, kindly dm me on discord (MG#8093). Thanks! :)
             <td>0719</td>
         </tr>
         <tr>
-            <td>
+            <td colspan=3>
                 <a href='https://drive.google.com/drive/folders/1IxoZ478kT9SXX7poHx5lPFmCmgsEd-Z1?usp=sharing'>
-                    VII. Git | Setup and configure GitHub Repository
+                    VII. Git 
                 </a>
             </td>
         </tr>
