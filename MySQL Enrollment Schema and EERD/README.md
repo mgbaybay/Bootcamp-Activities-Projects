@@ -1,5 +1,7 @@
 # Enrollment Schema and EERD
 
+Enrollment System for Elementary and High School Students
+
 ### Schema
 
 ```
