@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS `student_registration`.`year_level` (
   `yearlevel_name` VARCHAR(50) NOT NULL,
   `date_created` TIMESTAMP NOT NULL,
   `date_modified` TIMESTAMP NOT NULL,
-  PRIMARY KEY (`yearlevel_id`))R
+  PRIMARY KEY (`yearlevel_id`))
 ENGINE = InnoDB;
 
 
@@ -181,3 +181,4 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 ***************
 ### EERD Diagram
+<img src='https://github.com/mgbaybay/mgbaybay-kodego/blob/main/MySQL%20Enrollment%20Schema%20and%20EERD/mgbaybay_enrollment_eerd.png'>
