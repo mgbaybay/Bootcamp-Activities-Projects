@@ -12,19 +12,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema mydb
+-- Schema student_registration
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema mydb
+-- Schema student_registration
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `student_registration` DEFAULT CHARACTER SET utf8 ;
+USE `student_registration` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`student_information`
+-- Table `student_registration`.`student_information`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`student_information` (
+CREATE TABLE IF NOT EXISTS `student_registration`.`student_information` (
   `student_id` INT NOT NULL AUTO_INCREMENT,
   `first_name` VARCHAR(50) NOT NULL,
   `last_name` VARCHAR(50) NOT NULL,
@@ -38,9 +38,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`subject_details`
+-- Table `student_registration`.`subject_details`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`subject_details` (
+CREATE TABLE IF NOT EXISTS `student_registration`.`subject_details` (
   `student_subject_id` INT NOT NULL AUTO_INCREMENT,
   `subject_name` VARCHAR(50) NOT NULL,
   `date_created` TIMESTAMP NULL,
@@ -50,9 +50,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`instructor_information`
+-- Table `student_registration`.`instructor_information`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`instructor_information` (
+CREATE TABLE IF NOT EXISTS `student_registration`.`instructor_information` (
   `instructor_id` INT NOT NULL AUTO_INCREMENT,
   `first_name` VARCHAR(50) NOT NULL,
   `last_name` VARCHAR(50) NOT NULL,
@@ -65,21 +65,21 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`year_level`
+-- Table `student_registration`.`year_level`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`year_level` (
+CREATE TABLE IF NOT EXISTS `student_registration`.`year_level` (
   `yearlevel_id` INT NOT NULL AUTO_INCREMENT,
   `yearlevel_name` VARCHAR(50) NOT NULL,
   `date_created` TIMESTAMP NOT NULL,
   `date_modified` TIMESTAMP NOT NULL,
-  PRIMARY KEY (`yearlevel_id`))
+  PRIMARY KEY (`yearlevel_id`))R
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`school_year`
+-- Table `student_registration`.`school_year`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`school_year` (
+CREATE TABLE IF NOT EXISTS `student_registration`.`school_year` (
   `schoolyear_id` INT NOT NULL,
   `schoolyear_start` DATE NOT NULL,
   `schoolyear_end` DATE NOT NULL,
@@ -90,9 +90,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`class_schedule`
+-- Table `student_registration`.`class_schedule`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`class_schedule` (
+CREATE TABLE IF NOT EXISTS `student_registration`.`class_schedule` (
   `class_id` INT NOT NULL AUTO_INCREMENT,
   `student_subject_id` INT NOT NULL,
   `instructor_id` INT NOT NULL,
@@ -110,31 +110,31 @@ CREATE TABLE IF NOT EXISTS `mydb`.`class_schedule` (
   INDEX `FK_schoolyear_id_idx` (`schoolyear_id` ASC) VISIBLE,
   CONSTRAINT `FK_student_subject_id`
     FOREIGN KEY (`student_subject_id`)
-    REFERENCES `mydb`.`subject_details` (`student_subject_id`)
+    REFERENCES `student_registration`.`subject_details` (`student_subject_id`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE,
   CONSTRAINT `FK_instructor_id`
     FOREIGN KEY (`instructor_id`)
-    REFERENCES `mydb`.`instructor_information` (`instructor_id`)
+    REFERENCES `student_registration`.`instructor_information` (`instructor_id`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE,
   CONSTRAINT `FK_yearlevel_id`
     FOREIGN KEY (`yearlevel_id`)
-    REFERENCES `mydb`.`year_level` (`yearlevel_id`)
+    REFERENCES `student_registration`.`year_level` (`yearlevel_id`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE,
   CONSTRAINT `FK_schoolyear_id`
     FOREIGN KEY (`schoolyear_id`)
-    REFERENCES `mydb`.`school_year` (`schoolyear_id`)
+    REFERENCES `student_registration`.`school_year` (`schoolyear_id`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`payment_details`
+-- Table `student_registration`.`payment_details`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`payment_details` (
+CREATE TABLE IF NOT EXISTS `student_registration`.`payment_details` (
   `payment_id` INT NOT NULL,
   `date` TIMESTAMP NOT NULL,
   PRIMARY KEY (`payment_id`))
@@ -142,9 +142,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`registration_details`
+-- Table `student_registration`.`registration_details`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`registration_details` (
+CREATE TABLE IF NOT EXISTS `student_registration`.`registration_details` (
   `registration_id` INT NOT NULL,
   `student_id` INT NOT NULL,
   `class_id` INT NOT NULL,
@@ -157,17 +157,17 @@ CREATE TABLE IF NOT EXISTS `mydb`.`registration_details` (
   INDEX `FK_student_id_idx` (`student_id` ASC) VISIBLE,
   CONSTRAINT `FK_class_id`
     FOREIGN KEY (`class_id`)
-    REFERENCES `mydb`.`class_schedule` (`class_id`)
+    REFERENCES `student_registration`.`class_schedule` (`class_id`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE,
   CONSTRAINT `FK_payment_id`
     FOREIGN KEY (`payment_id`)
-    REFERENCES `mydb`.`payment_details` (`payment_id`)
+    REFERENCES `student_registration`.`payment_details` (`payment_id`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE,
   CONSTRAINT `FK_student_id`
     FOREIGN KEY (`student_id`)
-    REFERENCES `mydb`.`student_information` (`student_id`)
+    REFERENCES `student_registration`.`student_information` (`student_id`)
     ON DELETE RESTRICT
     ON UPDATE CASCADE)
 ENGINE = InnoDB;
