@@ -1,4 +1,4 @@
 # Intro to Web Development
 
 ## Activity 1
-![activity image](https://drive.google.com/file/d/18xGMM2Y_bChxi2-spohtcP0Nb6Pjz-3J/view?usp=sharing)
+![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
