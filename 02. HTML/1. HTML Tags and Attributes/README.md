@@ -1,8 +1,5 @@
-# Intro to Web Development
+# HTML Tags and Attributes
 
 ## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
-
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
+![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/02.%20HTML/1.%20HTML%20Tags%20and%20Attributes/01.png)
 
