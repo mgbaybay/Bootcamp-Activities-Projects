@@ -1,8 +1,6 @@
-# Intro to Web Development
+# HTML Table Rowspan and Colspan
 
-## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
+## Activity Screenshot
+![Activity Screenshot](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/03.%20HTML%20and%20CSS/1.%20HTML%20Table%20Rowspan%20and%20Colspan/01.png)
 
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
 
