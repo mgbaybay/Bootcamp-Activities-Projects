@@ -1,8 +1,4 @@
-# Intro to Web Development
+# HTML Form - Create Registration Form
 
-## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
-
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
-
+## Activity Screenshot
+![Activity Screenshot](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/02.%20HTML/3.%20HTML%20Form%20-%20Create%20Registration%20Form/01.png)
