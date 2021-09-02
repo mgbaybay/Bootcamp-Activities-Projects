@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-</head>
-<body>
-   <script>
-      let x = parseFloat(prompt('First number: '));
-      let operation = prompt('Enter operation: ');
-      let y = parseFloat(prompt('Second number: '));
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Simple Calculator</title>
+   </head>
 
-      let answer;
+   <body>
+      <script>
+         let x = parseFloat(prompt('First Number: '));
+         let operation = prompt('Enter Operation: ');
+         let y = parseFloat(prompt('Second Number: '));
+         let answer;
 
-      switch(operation){
-         case "+": answer = x + y; break;
-         case "-": answer = x - y; break;
-         case "*": answer = x * y; break;
-         case "/": answer = x / y; break;      
-         default: answer = "invalid"; break;
-      }
-      
-      document.write(`${x} ${operation} ${y} = ${answer}`);
+         switch(operation) {
+            case "+": answer = x + y; break;
+            case "-": answer = x - y; break;
+            case "*": answer = x * y; break;
+            case "/": answer = x / y; break;      
+            default: answer = "Invalid Operation"; break;
+         }
+         
+         alert(`${x} ${operation} ${y} = ${answer}`)
+         document.write(`${x} ${operation} ${y} = ${answer}`);
 
-   </script>
-</body>
+      </script>
+   </body>
 </html>

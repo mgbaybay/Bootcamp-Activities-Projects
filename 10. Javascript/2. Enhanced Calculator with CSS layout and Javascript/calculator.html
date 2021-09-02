@@ -4,8 +4,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-
+      <title>Enhanced Calculator</title>
       <style>
          *{
             box-sizing: border-box;
@@ -82,7 +81,6 @@
          .equal-sign:hover{
             background-color: #c69f26;
          }
-
       </style>
    </head>
    
@@ -124,7 +122,7 @@
          
          /*******CALCULATORS NEED TO HAVE THE FF*******
           * NUMBER - THRU INPUT OR ANSWER OF OPERATION
-          * OPERATION - CONDUCTS THE CALCULATIONS 
+          * OPERATOR - CONDUCTS THE CALCULATIONS 
           * DISPLAY - DISPLAYS THE ANSWER
           * BREAKPOINT - FOR MULTIPLE OPERATIONS
          *********************************************/
@@ -138,47 +136,45 @@
          };
      
          /******************DIGITS********************/
-         function inputDigit(digit){
+         function inputDigit(digit) {
             const {valueDisplay, secondNumber} = calculator;
 
-            if(secondNumber === true){
+            if(secondNumber === true) {
                calculator.valueDisplay = digit;
                calculator.secondNumber = false;
-            } 
-
-            else{
+            } else {
                calculator.valueDisplay = valueDisplay === '0' ? digit : valueDisplay + digit;
             }
          }
 
          /******************DECIMAL******************/
-         function inputDecimal(dot){
-            if(calculator.secondNumber === true){
+         function inputDecimal(dot) {
+            if (calculator.secondNumber === true) {
                calculator.valueDisplay = "0."
                calculator.secondNumber = false;
                return
             }
 
-            if(!calculator.valueDisplay.includes(dot)) {
+            if (!calculator.valueDisplay.includes(dot)) {
                calculator.valueDisplay += dot;
             }
          }
 
          /******************OPERATORS*****************/
-         function handleOperator(nextOperator){
+         function handleOperator(nextOperator) {
             const {firstNumber, valueDisplay, operator} = calculator
             const inputValue = parseFloat(valueDisplay);
 
-            if(operator && calculator.secondNumber){
+            if (operator && calculator.secondNumber) {
                calculator.operator = nextOperator;
                return;
             }
 
-            if(firstNumber == null && !isNaN(inputValue)){
+            if (firstNumber == null && !isNaN(inputValue)) {
             calculator.firstNumber = inputValue;
             } 
             
-            else if(operator){
+            else if (operator) {
                const result = calculate(firstNumber, inputValue, operator);
 
                calculator.valueDisplay = `${parseFloat(result.toFixed(7))}`;
@@ -190,20 +186,14 @@
          }
 
          /****************CALCULATOR******************/
-         function calculate(firstNumber, secondOperand, operator){
-            if(operator === '+'){
+         function calculate(firstNumber, secondOperand, operator) {
+            if (operator === '+') {
                return firstNumber + secondOperand;
-            } 
-            
-            else if(operator === '-'){
+            } else if (operator === '-') {
                return firstNumber - secondOperand;
-            } 
-            
-            else if(operator === '*'){
+            } else if (operator === '*') {
                return firstNumber * secondOperand;
-            } 
-            
-            else if(operator === '/'){
+            } else if (operator === '/') {
                return firstNumber / secondOperand;
             }
 
@@ -211,13 +201,13 @@
          }
 
          /*******************DISPLAY******************/
-         function updateDisplay(){
+         function updateDisplay() {
             const display = document.querySelector('.calculator-screen');
             display.value = calculator.valueDisplay;
          }
 
          /******************ALL CLEAR*****************/
-         function resetCalculator(){
+         function resetCalculator() {
             calculator.valueDisplay = '0';
             calculator.firstNumber = null;
             calculator.secondNumber = false;
@@ -232,11 +222,12 @@
          keys.addEventListener('click', event => {
             const {target} = event;
             const {value} = target;
-            if (!target.matches('button')){
+            
+            if (!target.matches('button')) {
                return;
             }
 
-            switch (value){
+            switch (value) {
                case '+':
                case '-':
                case '*':
@@ -251,7 +242,7 @@
                   resetCalculator();
                   break;
                default:
-                  if(Number.isInteger(parseFloat(value))){
+                  if (Number.isInteger(parseFloat(value))) {
                   inputDigit(value);
                }
             }
