@@ -1,8 +1,6 @@
-# Intro to Web Development
+# Tabular Data of Person Information
 
-## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
+## Activity Screenshot
+![Activity Screenshot](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/02.%20HTML/2.%20Tabular%20Data%20of%20Person%20Information_/01.png)
 
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
 
