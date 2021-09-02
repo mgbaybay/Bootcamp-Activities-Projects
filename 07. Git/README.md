@@ -1,8 +1,8 @@
-# Intro to Web Development
+# Git
 
-## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
+#### Git Account Created
+![Account Link](https://github.com/mgbaybay)
 
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
+#### Git Link for all Kodego Exercises
+![Kodego Exercises](https://github.com/mgbaybay/mgbaybay-kodego)
 
