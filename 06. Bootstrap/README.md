@@ -1,8 +1,8 @@
-# Intro to Web Development
+# Bootstrap
 
-## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
+## Mobile View
+![Mobile View](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/06.%20Bootstrap/mobile%20view.png)
 
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
+## Web View
+![Web View](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/06.%20Bootstrap/web%20view.png)
 

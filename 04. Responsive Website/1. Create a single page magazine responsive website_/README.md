@@ -1,8 +1,8 @@
-# Intro to Web Development
+# Single Page Responsive Website
 
-## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
+## Web View
+![Web View](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/04.%20Responsive%20Website/1.%20Create%20a%20single%20page%20magazine%20responsive%20website_/web%20view.png)
 
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
+## Mobile View
+![Mobile View](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/04.%20Responsive%20Website/1.%20Create%20a%20single%20page%20magazine%20responsive%20website_/mobile-tablet%20view.png)
 
