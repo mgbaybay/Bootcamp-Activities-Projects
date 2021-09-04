@@ -1,8 +1,8 @@
-# Intro to Web Development
+# Create a Travel Gallery Responsive Site
 
-## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
+## Web View
+![Web View](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/04.%20Responsive%20Website/2.%20Create%20a%20Travel%20Gallery%20responsive%20site/web%20view.png)
 
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
+## Mobile-Tablet View
+![Mobile-Tablet View](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/04.%20Responsive%20Website/2.%20Create%20a%20Travel%20Gallery%20responsive%20site/mobile-tablet%20view.png)
 
