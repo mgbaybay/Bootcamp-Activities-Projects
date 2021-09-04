@@ -5,33 +5,82 @@
 		<title>Holy Grail Flex</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="0714exercise1.css" />
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+
+			body{
+				margin: 0;
+			}
+
+			header, footer{
+				background-color: #9bcc34;
+				padding: 10px;
+				text-align: center;
+				min-height: 15vh;
+				text-align: center;
+				width: 100%;
+			}
+
+			section{
+				display: flex;    
+				min-height: 70vh;
+			}
+
+			article, aside{
+				padding: 50px;  
+				flex: 1;
+			}
+
+			aside{
+				background-color: beige;
+			}
+
+			nav{
+				flex: 3;
+				background-color: lightgrey;
+				padding: 50px;  
+			}
+
+			#lifestyle:hover{
+				background-color: lightcyan;
+			}
+
+			/*Responsiveness*/
+			@media screen and (max-width: 800px){
+				main, section{
+					width: 100%;
+					flex-direction: column;        
+				}
+			}
+
+		</style>
 	</head>
 	
 	<body>
-		<div class='wrapper'>
-			<div class="header">
+			<header>
 				<h1>Header</h1> 
-			</div>
+			</header>
 	
-			<div class="main">
-				<div class="side" id="lifestyle">
-						<h2>Nav</h2>
-						<p>Lorem Ipmsum</p>
-				</div>
-				<div class="article" id="lifestyle">
-						<h2>Article</h2>
-						<p>Lorem Ipmsum</p>
-				</div>
-				<div class="side" id="lifestyle">
-						<h2>Aside</h2>
-						<p>Lorem Ipmsum</p>
-				</div>
-			</div>
+			<section>
+				<nav id="lifestyle">
+					<h2>Nav</h2>
+					<p>Lorem Ipmsum</p>
+				</nav>
+				<article id="lifestyle">
+					<h2>Article</h2>
+					<p>Lorem Ipmsum</p>
+				</article>
+				<aside id="lifestyle">
+					<h2>Aside</h2>
+					<p>Lorem Ipmsum</p>
+				</aside>
+			</section>
 	
-			<div class="footer">
+			<footer>
 				All rights reserved.
-			</div>
-		</div>
+			</footer>
 	</body>
 </html>
+

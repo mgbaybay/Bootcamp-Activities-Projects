@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Leonardo DaVinci</title>
+		<title>Travel Gallery</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
@@ -20,52 +20,42 @@
 				padding: 32px;
 			}
 
-			h1, h2, h3, p{
+			h1, h3, p{
 				color: white;
 			}
 
 			main{
-				align-items: stretch;
-				padding: 5px 5px;
-				background-color: #000;
-				display: -ms-flexbox; 
 				display: flex;
-				-ms-flex-wrap: wrap;
 				flex-wrap: wrap;
-				height: 100%;
+				margin: auto;
+				justify-content: space-around;
 			}  
 
 			section{
-				padding: 15px 15px;
-				/* border: 5px solid #EDCF55; */
-				align-items: stretch;
-				-ms-flex: 25%; 
-				flex: 25%;
-				max-width: 25%;
+				display: flex;
+				flex-direction: column;
+				margin: 10px;
+				padding: 15px;
+				justify-content: center;
+				align-items: center;
 			} 
 
 			section img{
-				vertical-align: middle;
-				width: 370px;
-				height: 470px;
-				border: 5px solid #FFF79E;
+					/* display: block; */
+				width: 300px;
+				height: 400px;
+				border: 10px solid rgb(135, 161, 0);
+				border-radius: 5px;
 			}  
 
-			@media screen and (max-width: 800px){
+			@media screen and (max-width: 768px){
 				section{
-					max-width: 50%;
-					-ms-flex: 50%;
-					flex: 50%;   
+					max-width: 100%; 
 					margin: auto;    
 				}
-			}
-
-			@media screen and (max-width: 600px){
-				section{
-					max-width: 100%;
-					-ms-flex: 100%;
-					flex: 100%;
-					margin: auto;
+				main{
+					flex-direction: column;
+					justify-content: center;
 				}
 			}
 		</style>
@@ -74,29 +64,32 @@
 	<body>
 		<header>
 			<h1>Artworks by Leonardo da Vinci</h1>
-			<p>Read the description on each image</p>
+			<p>Famous works by the legendary artist</p>
 		</header>
 
 		<main> 
 			<section>
 				<img src="img/monalisa.jpg">
 				<h3>Mona Lisa</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<p>Add a description of the image here</p>
 			</section>
+
 			<section>
 				<img src="img/thevirginandthechild.jpg">
 				<h3>The Virgin and the Child</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<p>Add a description of the image here</p>
 			</section>
+
 			<section>
 				<img src="img/headofawoman.jpg">
 				<h3>Head of a Woman</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<p>Add a description of the image here</p>
 			</section>
+			
 			<section>
 				<img src="img/ladywithanermine.jpg">
 				<h3>Lady with a Nermine</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<p>Add a description of the image here</p>
 			</section>
 		</main>
 	</body>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Avocado Layout with Form</title>
+      <style>
+         *{
+            box-sizing: border-box;
+         }
+
+         body{
+            margin: 0;
+         }
+
+         header, footer{
+            background-color: yellowgreen;
+            height: 10vh;
+         }
+
+         header, footer, article, aside, nav{
+            padding: 15px;
+         }
+
+         .container{
+            display: flex;
+            height: 80vh;
+         }
+
+         .container>nav{ 
+            background-color: lightgrey;
+            flex: 1;
+            order: 1;
+         }
+
+         .container>aside{
+            background-color: lightgreen;
+            flex: 1;
+         }
+
+         .container>article{
+            flex: 3;    
+         }
+
+         .form-container{
+            background-color: beige;
+            margin: 10px 100px 10px 100px;
+            display: flex;
+            flex-direction: row;
+            width: 800px;
+            height: 60vh;
+         }
+
+         .left, .right{
+            background-color: beige;
+            display:flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            padding: 25px;
+            height: 60vh;
+         }
+
+         .item{
+            display: flex;
+            flex-direction: row;
+            margin: 10px 0;
+         }
+
+         .item input{
+            width: 100%;
+         }
+
+         .items{
+            margin: 10px 0;
+         }
+
+         label{
+            margin-right: 10px;
+         }
+
+         p{
+            margin: 5px;
+         }
+         
+         /*Responsiveness*/
+         @media screen and (max-width: 675px){
+            .container, .form-container, .left, .right{
+               flex-direction: column;
+               height: 100%;
+            }
+            
+            .form-container{
+               width: 100%;
+               margin: 0 auto;
+            }
+
+            .left, .right, .form-container{
+               margin: 0px;
+               padding: 5px;
+            }
+
+            header, footer, article, aside, nav{
+               padding: 5px;
+            }
+
+            h2{
+               font-size: 15px;
+               margin: 0;
+            }
+
+            footer, header{
+               height: 10vh;
+            }
+            
+            p{
+               margin: 0;
+            }
+         }
+      </style>
+   </head>
+
+   <body>
+      <header>
+         <h2>Header</h2>
+      </header>
+      
+      <div class="container">
+         <article>
+            <h2>Article</h2>
+            <form>
+               <div class="form-container">
+                  <div class="left">
+                     <div class="item">
+                        <label for="name">Name</label>
+                        <input type="text" name="name"/>
+                     </div>
+                     <div class="item">
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone"/>
+                     </div>
+                     <div class="item">
+                        <label for="email">Email</label>
+                        <input type="text" name="email"/>
+                     </div>
+                     <div class="item">
+                        <label for="datetime">Pick-up date/time</label>
+                        <input type="datetime-local" id="birthdaytime" name="datetime">
+                     </div>
+                     <div class="item">
+                        <label for="place">Pick-up place</label>
+                        <select name = "place">
+                           <option value="Select 1" selected>Select 1</option>
+                        </select>
+                     </div>
+                     <div class="item">
+                        <label for="place">Drop off Place</label>
+                        <input type="text" name="drop_off"/>
+                     </div>
+                  </div>
+
+                  <!--Right Column-->
+                  <div class="right">
+                     <div class="items">
+                        <label for="vehicle">Which vehicle do you require?</label><br>
+                        <input type="radio" name=vehicle value="van">Van <br>
+                        <input type="radio" name=vehicle value="Jeepney">Jeepney <br>
+                        <input type="radio" name=vehicle value="tricycle">Tricycle <br>
+                     </div>
+                     <div class="items">
+                        <label for="extras">Extras</label><br>
+                        <input type="checkbox" name="babyseat" value="on">Baby Seat <br>
+                        <input type="checkbox" name="wheelchair" value="on">Wheelchair Access <br>
+                        <input type="checkbox" name="stocktip" value="on">Stock tip <br>
+                     </div>
+                     <div class="items">
+                        <input type="submit" value="Submit Booking">
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </article>
+
+         <aside>
+            <h2>Aside</h2>
+         </aside>
+         
+         <nav>
+            <h2>Navigation</h2>
+         </nav>
+      </div>
+
+      <footer>
+         <h2>Footer</h2>
+      </footer>
+   </body>
+</html>

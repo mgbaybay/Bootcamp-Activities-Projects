@@ -1,18 +1,15 @@
 
 /***********SCSS file for 0723 EXERCISE********/
 
-//Page Layout
 *{
    box-sizing: border-box;
    margin: 5px;
 }
 
-//Global Variables
 $fontStyle: Arial;
 $fontSize: 20px;
 $boxStyle: 2px solid black lightgrey 10px 19px;
 
-//MIXIN for section layouts
 @mixin box($bwidth, $bstyle, $bcolor, $background, $padding, $margin){
 	border-width: $bwidth;
 	border-style: $bstyle;
@@ -22,7 +19,6 @@ $boxStyle: 2px solid black lightgrey 10px 19px;
    margin-bottom: $margin;
 }
 
-//SECTIONS
 nav, section, aside, footer{
 	@include box($boxStyle...);
 }
@@ -119,7 +115,6 @@ footer{
    }
 }
 
-//FONT STYLING
 h3{
    font-family: $fontStyle;
    font-size: $fontSize;
