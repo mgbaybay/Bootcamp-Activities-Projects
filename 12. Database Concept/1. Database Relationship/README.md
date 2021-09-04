@@ -1,8 +1,14 @@
-# Intro to Web Development
+# Database Relationship
 
-## Activity 1
-![activity 1](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/1.png)
+## One to Many
+![One to Many](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/12.%20Database%20Concept/1.%20Database%20Relationship/01-OneToMany.png)
 
-## Activity 2
-![activity 2](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/01.%20Intro%20to%20Web%20Development/2.png)
+### One to Many Example
+![One to Many Example](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/12.%20Database%20Concept/1.%20Database%20Relationship/02-OneToMany-Example.png)
+
+## Many to Many
+![Many to Many](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/12.%20Database%20Concept/1.%20Database%20Relationship/03-ManyToMany.png)
+
+### Many to Many Example
+![Many to Many Example](https://github.com/mgbaybay/mgbaybay-kodego/blob/main/12.%20Database%20Concept/1.%20Database%20Relationship/04-ManyToMany-Example.png)
 
