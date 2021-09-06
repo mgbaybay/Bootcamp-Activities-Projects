@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Patient Registration</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+
+         body {
+            font-family: 'Roboto', sans-serif;
+            background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+            padding: 50px;
+         }
+
+         .demo-container {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .btn-lg {
+            padding: 12px 26px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+         }
+
+         ::placeholder {
+            font-size:14px;
+            letter-spacing:0.5px;
+         }
+
+         .form-control-lg {
+            font-size: 16px;
+            padding: 25px 20px;
+         }
+
+         .font-500{
+            font-weight:500;	
+         }
+
+         .image-size-small{
+            width:140px;
+            margin:0 auto;	
+         }
+
+         .image-size-small img{
+            width:140px;
+            margin-bottom:-70px;	
+         }
+
+         .icon-camera{
+            position: absolute;
+            right: -1px;
+            top: 21px;
+            width: 30px;
+            height: 30px;
+            background-color: #FFF;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+      </style>
+   </head>
+
+   <body>
+      <div class="demo-container">
+         <div class="container">
+         <div class="row">
+            <div class="col-lg-12 col-12 mx-auto">
+               <div class="text-center image-size-small position-relative">
+                  <img src="https://annedece.sirv.com/Images/user-vector.jpg" class="rounded-circle p-2 bg-white">
+                  <div class="icon-camera">
+                     <a href="" class="text-primary"><i class="lni lni-camera"></i></a>
+                  </div>
+               </div>
+               <div class="p-5 bg-white rounded shadow-lg">
+                  <h3 class="mb-2 text-center pt-5">Patient Registration</h3>
+                  <p class="text-left lead">Basic Information</p>
+                  <form id="userRegistration">
+                     <label class="font-500">First Name</label>
+                     <input name="" class="form-control form-control-lg mb-3" type="text" id="fName" placeholder="Include Suffix, if any">
+                     <label class="font-500">Last Name</label>
+                     <input name="" class="form-control form-control-lg mb-3" type="text" id="lName">
+                     <label class="font-500">Middle Name</label>
+                     <input name="" class="form-control form-control-lg mb-3" type="text" id="mName">
+                     <label class="font-500">Birthdate</label>
+                     <input name="" class="form-control form-control-lg mb-3" type="date" id="birthdate">
+                     
+                     <fieldset class="form-group">
+                        <div class="row">
+                           <legend class="col-form-label col-sm-2 pt-0 font-500">Gender</legend><br>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input" type="radio" name="Gender" id="gender-male" value="Male">
+                              <label class="form-check-label">Male</label>
+                           </div>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input" type="radio" name="Gender" id="gender-female" value="Female">
+                              <label class="form-check-label">Female</label>
+                           </div>
+                        </div>
+                     </fieldset>
+
+                     <label class="font-500">Contact Number</label>
+                     <input name="" class="form-control form-control-lg mb-3" type="text" id="mNumber">
+                     <label class="font-500">Address</label>
+                     <input name="" class="form-control form-control-lg mb-3" type="text" id="address">
+                     
+                     <hr>
+                     <p class="text-left lead">Medical History</p>
+                     <fieldset class="form-group">
+                        <div class="row" id="mHistory">
+                           <legend class="col-form-label col-sm-2 pt-0 font-500">Comorbidity</legend><br>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input mb-2" type="checkbox" value="Asthma" id="Asthma">
+                              <label class="form-check-label">Asthma</label>
+                           </div>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input mb-2" type="checkbox" value="Cancer" id="Cancer">
+                              <label class="form-check-label">Cancer</label>
+                           </div>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input mb-2" type="checkbox" value="Cardiac Disease" id="Cardiac-Disease">
+                              <label class="form-check-label">Cardiac Disease</label>
+                           </div>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input mb-2" type="checkbox" value="Diabetes" id="Diabetes">
+                              <label class="form-check-label">Diabetes</label>
+                           </div>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input mb-2" type="checkbox" value="Hypertension" id="Hypertension">
+                              <label class="form-check-label">Hypertension</label>
+                           </div>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input mb-2" type="checkbox" value="Psychiatric Disorder" id="Psychiatric-Disorder">
+                              <label class="form-check-label">Psychiatric Disorder</label>
+                           </div>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input class="form-check-input mb-2" type="checkbox" value="Epilepsy" id="Epilepsy">
+                              <label class="form-check-label">Epilepsy</label>
+                           </div>
+                        </div>
+                     </fieldset>
+                     <hr>
+                     <fieldset class="form-group">
+                        <div class="row">
+                           <legend class="col-form-label col-sm-12 pt-0 font-500">Select the symptoms that you are currently experiencing</legend><br>
+                           <select class="form-control form-control-lg mb-3" id="symptoms"  multiple="multiple">
+                              <option value="">Choose...</option>
+                              <option value="Chest Pain" id="Chest-Pain">Chest Pain</option>
+                              <option value="Respiratory" id="Respiratory">Respiratory</option>
+                              <option value="Hematological" id="Hematological">Hematological</option>
+                              <option value="Lymphatic" id="Lymphatic">Lymphatic</option>
+                              <option value="Neurological" id="Neurological">Neurological</option>
+                              <option value="Psychiatric" id="Psychiatric">Psychiatric</option>
+                              <option value="Gastrointestinal" id="Gastrointestinal">Gastrointestinal</option>
+                              <option value="Weightloss" id="Weightloss">Weightloss</option>
+                           </select>
+                        </div>
+                     </fieldset>
+                     <hr>
+                     <fieldset class="form-group">
+                        <div class="row">
+                           <legend class="col-form-label col-sm-12 pt-0 font-500">Are you currently taking medication?</legend><br>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input 
+                                 class="form-check-input mb-2" 
+                                 type="radio" 
+                                 value="No" 
+                                 name="Medication" 
+                                 id="no-medication"
+                                 onclick="var input=document.getElementById('text-medication'); if(this.checked){ input.disabled = true; input.focus();}"
+                              >
+                              <label class="form-check-label">No</label>
+                           </div>
+                           <div class="col-sm-12 ml-5 form-check">
+                              <input 
+                                 class="form-check-input mb-2" 
+                                 type="radio" 
+                                 value="Yes" 
+                                 name="Medication" 
+                                 id="yes-medication"
+                                 onclick="var input=document.getElementById('text-medication'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true;}"
+                              >
+                              <label class="form-check-label">Yes</label>
+                              <input class="ml-2 col-sm-10" type="text" value="" id="text-medication" disabled><br> 
+                              <small class="text-muted" >List all medications that you are currently taking</small>
+                           </div>
+                        </div>
+                     </fieldset>
+
+                     <button class="btn btn-primary btn-lg w-100 shadow-lg mt-5">SUBMIT</button>
+                  </form>  
+               </div>        
+            </div>
+         </div>
+         </div>
+      </div>
+
+      <script>
+         userRegistration.addEventListener('submit', e => {
+            e.preventDefault();
+
+            var firstName = document.getElementById('fName').value
+            var lastName = document.getElementById('lName').value
+            var middleName = document.getElementById('mName').value            
+            var contactNumber = document.getElementById('mNumber').value
+            var genderMale = document.getElementById('gender-male')
+            var birthDate = document.getElementById('birthdate').value
+            var genderFemale = document.getElementById('gender-female')
+            var address = document.getElementById('address').value
+            var medications = document.getElementById("text-medication").value
+            var mHistoryList = document.getElementById("mHistory")
+            var checker = mHistoryList.getElementsByTagName("input")
+            
+            let dateCheck
+            var dateRegex = /^(\d{4})\-(\d{1,2})\-(\d{1,2})$/
+            var numberChecker = /^\d{11}$/
+            var medicalHistory = []
+            var mnumChecker = /^\d{11}$/
+
+            var errors = []
+            var userInfo = []
+            
+            if (firstName == '') { 
+               errors.push('Fill out First Name')
+            } else {
+               userInfo.push('First Name: ' + firstName)
+            }
+
+            if (lastName == '') { 
+               errors.push('Fill out Last Name')
+            } else {
+               userInfo.push('Last Name: ' + lastName)
+            }
+
+            if (middleName != '') { 
+               userInfo.push('Middle Name: ' + middleName)
+            }
+
+            if (birthDate != '') {
+               if (dateCheck = birthDate.match(dateRegex)) {
+                  var date = birthDate.split('-')
+                  var yy = parseInt(date[0])
+                  
+                  if (yy < 1902 || yy > 2021) {
+                     errors.push('Enter a valid birthyear')     
+                  }
+                  userInfo.push('Birthdate: ' + birthDate)
+               }
+            } else { 
+               errors.push('Enter a valid birthdate')
+            }
+
+            if (genderMale.checked) { 
+               userInfo.push('Gender: Male')
+            } else if (genderFemale.checked) {  
+               userInfo.push('Gender: Female')
+            } else {
+               errors.push('Choose a gender')
+            }
+
+            if (contactNumber == '') {
+               errors.push('Input Contact Number')
+            } else if (mnumChecker.test(contactNumber)) {
+               if (contactNumber.charAt(0) === '0' && contactNumber.charAt(1) === '9') {
+                  userInfo.push('Contact Number: ' + contactNumber)
+               } else {
+                  errors.push('Invalid Phone Number')
+               }
+            } else {
+               errors.push('Invalid Phone Number')
+            }
+
+            if (address == '') {
+               errors.push('Enter address')
+            } else {
+               userInfo.push('Address: ' + address)
+            }
+
+            for (var i = 0; i < checker.length; i++) {
+               if (checker[i].checked) {
+                  medicalHistory.push(checker[i].value)          
+               }
+            }
+
+            if (medicalHistory.length > 0) {
+               userInfo.push('Medical History: ' + medicalHistory.join(", "))
+            } else {
+               userInfo.push('No Medical History')
+            }
+
+            var symptomsList = document.getElementById('symptoms');
+            var selected = [...symptomsList.selectedOptions]
+                  .map(option => option.value)
+            if (selected.length > 0) {
+               userInfo.push('Medical History: ' + selected.join(", "))
+            } else {
+               userInfo.push('No Symptoms')
+            }
+
+            if (medications !== '') {
+               userInfo.push('Medications: ' + medications)
+            } else {
+               userInfo.push('No medications')
+            }
+
+            if (errors.length > 0) {
+               alert(errors.join("\n"))
+            } else if (userInfo.length > 0) {
+               alert('Registration successful! See console log for details')
+               console.log(userInfo.join("\n"))
+            }
+         });
+      </script>
+   </body>
+</html>
